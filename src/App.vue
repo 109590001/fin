@@ -1,11 +1,17 @@
 <template>
+<div>
+<h1>My vue practice</h1>
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/page1">box</router-link> |
+      <router-link to="/page2">Gradual</router-link> |
+      <router-link to="/page3">clock</router-link> |
+      <router-link to="/page4">phone</router-link>
     </div>
     <router-view/>
   </div>
+</div>
 </template>
 
 <style>
